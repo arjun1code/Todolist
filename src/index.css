@@ -1,0 +1,237 @@
+body {
+  background-color: blue;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: brown;
+}
+
+.main h1{
+margin-left: 20px;
+color: wheat;
+text-shadow: 8px 4px 4px #080707;  
+
+}
+
+.main ul{
+  display: flex;
+  list-style: none;
+  margin-right: 30px; 
+} 
+
+ul li a{
+  /* color: rgb(241, 232, 232); */
+  text-decoration:  none  !important ;
+  padding: 10px;
+  font-weight: bold; 
+  color: white;
+  text-shadow: 8px 4px 4px #080707;  
+
+}
+
+li a:hover{
+  color: red;
+  background-color: aliceblue;
+  border-radius: 6px;
+  transition: 1.6s;
+  text-shadow:none;  
+
+  
+}
+
+
+/* todo css */
+
+.fa-trash:hover{
+   color: red;
+   cursor: pointer;
+}
+.edit:hover{
+   cursor: pointer;
+   color: green;
+}
+
+#nav ul{
+   display: flex;
+   list-style: none;
+   justify-content: end;
+}
+
+#nav ul li a{
+   text-decoration: none;
+   padding: 10px;
+}
+body{
+   background-color: rgb(214, 108, 108);
+}
+
+.mainForm1{
+   justify-content: center;
+   display: flex;
+}
+
+
+/* totoList is css */
+.form1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.form2{
+   border: 1px solid black;
+   box-shadow:2px 2px 5px 4px rgb(69, 78, 69) ;
+   border-radius: 10px;
+   width: 100%;
+   display: flex;
+   height: 100%;
+   flex-direction: column;
+   background-color: rgb(89, 119, 109);
+}
+
+
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+ }
+
+.mainForm{
+   display: flex;
+   justify-content: center;
+   width: 250px;
+   border-radius: 20px;
+   
+}
+
+.mainForm input{
+   
+   padding: 10px;
+   margin: 5px;
+}
+
+
+
+
+/* css for todo list */
+.fa-trash{
+   color: red;
+   cursor: pointer;
+ }
+ body{
+   background-color: blue;
+ }
+ 
+ .edit:hover{
+   color: green;
+   cursor: pointer;
+ }
+ 
+ .first{
+   display: flex;
+   justify-content: center;
+ }
+ table,th,td, tr{
+   border: 1px solid black;
+ }
+ 
+ tbody,thead{
+   background-color: aquamarine;
+   font-weight: bold;
+   text-align: center;
+ }
+  
+ tr ,td{
+   width: 200px;
+ 
+ }
+ 
+
+
+ input{
+   margin: 10px ;
+ width: 250px;
+ border-radius: 5px;
+ outline: none;
+
+ }
+ .second span {
+   display: block;
+   margin: auto;
+   margin-bottom: 10px;
+   box-shadow: 0px 2px 10px 4px cornflowerblue;
+ }
+ 
+ button{
+   border-radius: 10px;
+ 
+ }
+ .second {
+   box-shadow: 0px 2px 10px 4px cornflowerblue;
+   background-color: blueviolet;
+   margin: 10px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+ }
+ 
+ 
+ /* table ccc */
+ 
+ .secondTable{
+   box-shadow: 0px 2px 10px 4px cornflowerblue;
+   background-color: cadetblue;
+   margin: 10px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+ }
+ 
+  .fa-trash-can:hover,i:hover{
+   color: red;
+   cursor: pointer;
+   
+ }
+  
+ /* edit icon csss  */
+ 
+ .fa-fa-solid :hover,i:hover{
+   color: rgb(93, 221, 76);
+   cursor: pointer;
+   
+ }
+ 
+ /* label csss */
+ 
+ label{
+   display:flex;
+   justify-content:center;
+   font-weight: bold;
+   color: wheat;
+    
+ }
+ 
+ /* all remove button css */
+ .btn{
+   margin: auto;
+   background-color: red;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
